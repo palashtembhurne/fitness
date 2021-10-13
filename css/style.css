@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+/*header starts*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Bodybuilding-Supplement-Stacks.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+nav span{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.headings{
+    margin-top: 20rem;
+}
+
+header h1{
+    color:red;
+    font-weight: 900;
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header h6{
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.more{
+
+    width: 150px;
+    height: 50px;
+    border-color: black;
+    background: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+/* info section starts*/
+
+.info{
+    width: 100%;
+    background-color: #34282C;
+}
+
+.info section{
+    width: 80%;
+    text-align: center;
+    line-height: 2rem;
+    padding: 4rem;
+}
+
+.info section h2{
+    color: #fff;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+.info section h4{
+    color: #fff;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.info section h4 span{
+    color: red;
+}
+
+.info section p{
+    color:grey;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+/* testimonial starts*/
+
+
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.testimonial-wrapper{
+    width: 100%;
+    background-color: #e00f4e;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonial{
+    width: 23%;
+    margin-top: 2rem;
+}
+
+.testimonial img{
+    width: 100%;
+}
+
+.testimonial-wrapper .inner h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.testimonial-wrapper .inner h2 span{
+    font-weight: 600;
+}
+
+.testimonial h3{
+    font-weight: 100;
+    font-size: 1rem;
+    background-color: #34282C;
+    padding: 0.8rem 0;
+    text-align: center;
+    position: relative;
+    top: -0.3rem;
+}
+
+.testimonial p{
+    line-height: 2rem;
+    text-align: center;
+    background-color:aqua;
+    color: grey;
+    text-align: center;
+    position: relative;
+    top: -0.3rem;
+}
+
+/* membership section starts*/
+
+.membership-wrapper{
+    width: 100%;
+    background-color:#34282C;
+    text-align: center;
+    color: #fff;
+}
+
+.membership{
+    width: 30%;
+    background-color: #1d1115;
+    margin-top: 2rem;
+    text-align: center
+}
+
+.membership-wrapper .inner h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.membership-wrapper .inner h2 span{
+    font-weight: 600;
+}
+
+.membership h3{
+    font-weight: 100;
+    font-size: 1rem;
+    background-color:#dfdfdf;
+    color: black;
+    padding: 0.8rem 0;
+    text-align: center;
+}
+
+.membership h3{
+    font-weight: 300;
+    font-size: 1rem;
+    background-color: #fff;
+    color: black;
+    padding: 0.8rem 0;
+}
+
+.membership h1{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #e00f4e;
+    padding: 0.8rem 0;
+}
+
+.membership p{
+    line-height: 1.6rem;
+    text-align: center;
+    color: grey;
+    padding: 0.8rem 0;
+}
+
+.sign{
+
+    width: 130px;
+    height: 40px;
+    border-color:#e00f4e;
+    background: none;
+    color: #fff;
+    font-weight: 200;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* footer section starts*/
+
+footer{
+    width: 100%;
+    background-color: #e00f4e;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p{
+    font-size: 1.5rem;
+    color:black;
+}
+
+
+/* media query starts*/
+
+@media only screen and (max-width:600px){
+    nav{
+        font-size: 0.5rem;
+    }
+
+    nav .logo{
+        font-size: 0.5rem;
+    }
+
+    nav span{
+        font-size: 0.5rem;
+    }
+
+    .info section{
+        line-height: 2.5rem;
+    }
+
+    .testimonial{
+        width: 100%;
+    }
+
+    .membership{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
